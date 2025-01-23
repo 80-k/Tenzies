@@ -1,11 +1,14 @@
 {
-  "name": "Scrim-s06j01r",
-  "description": "https://scrimba.com/learn-react-c0e/~03yp",
+  "name": "80-k, Tenzies",
+  "homepage": "https://80-k.github.io/Tenzies",
+  "description": "Game Tenzies",
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "19.0.0-rc-8b08e99e-20240713",
